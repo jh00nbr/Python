@@ -5,7 +5,7 @@
 #Author: Jhonathan Davi | insightsecs at gmail.com | Twitter @jh00nbr
 #Inurl Brasil: blog.inurl.com.br | fb.com/InurlBrasil
 # Inurlbr.php:  https://github.com/googleinurl/SCANNER-INURLBR/blob/master/inurlbr.php
-
+# https://www.youtube.com/watch?v=mEdonicOmfw
 
 import urllib
 import os
