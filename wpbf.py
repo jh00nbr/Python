@@ -54,7 +54,7 @@ else:
         print "                       \ \_     "
         print "                     _-~~ .\    "
         print "                   ,~   )___>   "
-        print "                 @~    /    Inurlbr Dorking + Wordpress bruteforcing "
+        print "                 @~    /    Inurlbr Dorking + Wordpress Bruteforcing "
         print "                  \____)                                             "
         print "                            use: wpbf.py <list.txt> <user>           "
         print "           [ Author: Jhonathan Davi | insightsecs at gmail.com | Twitter @jh00nbr ] "
