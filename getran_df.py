@@ -4,6 +4,9 @@
 # Script de consulta simples no banco de dados da Banca de Direção do Detran DF / By Jhonathan Davi A.K.A jh00nbr_ / 
 # Insightl4b - http://lab.insightsecurity.com.br
 
+__author__ =  "Jhonathan Davi"
+__credits__ = ["Jhonathan Davi A.K.A jh00nbr_"]
+
 import requests,sys,re
 
 if __name__ == "__main__":
