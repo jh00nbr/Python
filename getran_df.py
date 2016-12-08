@@ -28,7 +28,7 @@ def get_dados(contents): # Regex das tags XML
 
 if __name__ == "__main__":
     if len(sys.argv) > 1:          
-        configs = {'api_getran':'http://getran.detran.df.gov.br/getranServicos/ConsultaHabilitacaoWS?wsdl','cpf':sys.argv[1],'token':'TKN832JHGSI2937MNGHSJ9955','user_agent':'ksoap2-android/2.6.0+'}
+        configs = {'api_getran':'http://getran.detran.df.gov.br/getranServicos/ConsultaHabilitacaoWS?wsdl','cpf':sys.argv[1],'token':'TKN832JHGSI2937MNGHSJ9987','user_agent':'ksoap2-android/2.6.0+'}
         data = '<v:Envelope xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns:d="http://www.w3.org/2001/XMLSchema" xmlns:c="http://schemas.xmlsoap.org/soap/encoding/" xmlns:v="http://schemas.xmlsoap.org/soap/envelope/">'
         data += '<v:Header /><v:Body><n0:consultarBanca id="o0" c:root="1" xmlns:n0="http://ws.habilitacao.site.servicos.getran.searchtecnologia.com.br/">'
         data += '<cpf i:type="d:string">'+configs['cpf']+'</cpf>'
