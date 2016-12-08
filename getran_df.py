@@ -20,8 +20,7 @@ if __name__ == "__main__":
         data += '</n0:consultarBanca></v:Body></v:Envelope>'
         headers = {'User-Agent':'ksoap2-android/2.6.0+','SOAPAction':'http://getran.detran.df.gov.br/getranServicos/','Content-Type':'text/xml;charset=utf-8'}
         req = requests.post(url,data=data,headers=headers)
-
-  
+        
         # Regex das tags XML   
         nome = re.search('<nome>(.*)</nome>',req.content).group(0).replace('<nome>','').replace('</nome>','')
         renach = re.search('<renach>(.*)</renach>',req.content).group(0).replace('<renach>','').replace('</renach>','')
